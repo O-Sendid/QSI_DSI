@@ -12,6 +12,7 @@ interface GraphData {
 interface IndicatorData {
   label: string;
   value: number;
+  type: string,
   data: GraphData[];
 }
 
@@ -26,7 +27,7 @@ const Dashboard: React.FC = () => {
   return (
     <div style={{ fontFamily: "sans-serif", padding: "20px", backgroundColor: "#1E1E1E", color: "#fff" }}>
       <div style={{ display: "flex", width: "100%", marginBottom: "20px" }}>
-        <div style={{ width: "30%", marginRight: "20px" }}>
+        <div style={{ width: "20%", marginRight: "20px" }}>
           <h3 style={{ marginBottom: "10px" }}>Justicket</h3>
           {indicators.map((indicator) => (
             <Indicator
@@ -38,8 +39,8 @@ const Dashboard: React.FC = () => {
           ))}
         </div>
         <div style={{ width: "70%" }}>
-          <h1 style={{ marginBottom: "30px" }}>Admin Dashboard</h1>
-          {selectedIndicator && <Graph data={selectedIndicator.data} />}
+          <h1 style={{ marginBottom: "30px" , marginLeft: "55px"}}>Admin Dashboard</h1>
+          {selectedIndicator && <Graph data={selectedIndicator.data} type={selectedIndicator.type} />}
         </div>
       </div>
     </div>

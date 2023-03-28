@@ -164,6 +164,26 @@ Un retard se remarque sur les équipes **FRONT** et **BACK**, même si les deux 
 > #### *Tokenisation*
 > - Annulation d'un concert.
 
+# SEMAINE DU 28/03
+## Avancement du projet (dernière semaine) : 
+
+### Ce qui a été fait 
+> #### *Front* 
+> - En attente d'une réponse
+
+> #### *Back*
+> - En attente d'une réponse
+
+> #### *Tokenisation*
+> - NFT terminé
+> - Dernière mise à jour du contrat usine (lien fournit de nouveau) 
+> - Exemple d'un concert fournit
+
+> L'équipe tokenisation a fournit les différentes choses à appeler pour faire fonctionner le code et une explication du fonctionnement ! 
+
+``` Lien du contrat : https://better-call.dev/ghostnet/KT1BBdjgLByEV3TkLow6DdVvN8xWcKz9uNvo/operations ```
+
+``` Contrat usine : https://better-call.dev/ghostnet/KT1Um18wP2yeFZ75UBbV3rwCiVemUJe8TSdC/operations ```
 
 # Mise en production : 
 > **Domaine** : justicket.maxleq.com 

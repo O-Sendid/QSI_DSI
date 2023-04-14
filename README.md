@@ -221,7 +221,7 @@ Un retard se remarque sur les équipes **FRONT** et **BACK**, même si les deux 
 > - En attente d'une réponse
 
 > #### *Back*
-> - En attente d'une réponse
+> - Le projet est fini.
 
 # Mise en production : 
 > **Domaine** : justicket.maxleq.com 

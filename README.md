@@ -159,12 +159,59 @@ Un retard se remarque sur les équipes **FRONT** et **BACK**, même si les deux 
 > - En attente d'une réponse
 
 > #### *Back*
-> - En attente d'une réponse
+> - Envoi JSON/image sur ipfs avec l'aide de l'outil pinata
+> - Avancer sur le fonctionnement de la vérification des singatures des messages.
 
 > #### *Tokenisation*
 > - Annulation d'un concert.
 
 # SEMAINE DU 28/03
+## Avancement du projet : 
+> Un décalage de date de rendu a été demandé et accepté par le client, la nouvelle date de rendu est donc au 15/04/2023 !
+
+### Ce qui a été fait 
+> #### *Front* 
+> - Visuel, en grande partie finit (il ne devrait plus bouger, ou alors légèrement)
+
+> #### *Back*
+> - Le travail de la semaine dernière prend plus de temps que prévu, alors décalage sur cette semaine, mais le developpement avance.
+
+### Ce qui devrait être fini à la fin de la séance prochaine
+> #### *Front*
+> - Communication avec le Back 
+> - Achat de ticket sur la blockChain
+
+> #### *Back*
+> - (cf plus haut)
+
+> #### *Tokenisation*
+> - Annulation d'un concert.
+
+# SEMAINE DU 04/04
+## Avancement du projet : 
+
+### Ce qui a été fait 
+> #### *Front* 
+> - Communication avec le back
+> - Achat de ticket sur la blockchain
+> Cependant, ce n'est pas totalement fini, quelques soucis techniques sont apparut. La connexion Tezos n'étant pas encore terminé, il y aura un léger décalage sur cela, le front est pour le moment bloqué sur cette partie. 
+
+> #### *Back*
+> - Finalisation des derniers détails sur les connexions à la blockchain, le déploiement et la vérification
+
+### Ce qui devrait être fini à la fin de la séance prochaine
+> #### *Front*
+> - Communication avec le Back 
+> - Achat de ticket sur la blockChain
+
+> #### *Back*
+> - Finaisation de tout ce qui est en cours
+> - Connexion Tezos
+
+> #### *Tokenisation*
+> - Annulation d'un concert.
+
+# SEMAINE DU 11/04 
 ## Avancement du projet (dernière semaine) : 
 
 ### Ce qui a été fait 
@@ -174,22 +221,11 @@ Un retard se remarque sur les équipes **FRONT** et **BACK**, même si les deux 
 > #### *Back*
 > - En attente d'une réponse
 
-> #### *Tokenisation*
-> - NFT terminé
-> - Dernière mise à jour du contrat usine (lien fournit de nouveau) 
-> - Exemple d'un concert fournit
-
-> L'équipe tokenisation a fournit les différentes choses à appeler pour faire fonctionner le code et une explication du fonctionnement ! 
-
-``` Lien du contrat : https://better-call.dev/ghostnet/KT1BBdjgLByEV3TkLow6DdVvN8xWcKz9uNvo/operations ```
-
-``` Contrat usine : https://better-call.dev/ghostnet/KT1Um18wP2yeFZ75UBbV3rwCiVemUJe8TSdC/operations ```
-
 # Mise en production : 
 > **Domaine** : justicket.maxleq.com 
 > 
 > **Front** : Node version 18.10.0
 > 
-> **Back** : *En attente de réponse*
-> 
-> **Tokenisation** : X
+> **Back** : Lire le ReadMe du back qui contiens toutes les informations nécéssaires
+
+> Certains éléments du back ont de l'expérience dans le déploiement d'application, par conséquent, ils sont venus en aide à la DSI pour préparer un bon environement pour déployer, la DSI a ensuite repris le flambeau afin de s'occuper des tâches les plus lourdes et longues.

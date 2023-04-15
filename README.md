@@ -177,6 +177,9 @@ Un retard se remarque sur les équipes **FRONT** et **BACK**, même si les deux 
 > #### *Back*
 > - Le travail de la semaine dernière prend plus de temps que prévu, alors décalage sur cette semaine, mais le developpement avance.
 
+> #### *Tokenisation*
+> - Annulation d'un concert. (donc projet fini)
+
 ### Ce qui devrait être fini à la fin de la séance prochaine
 > #### *Front*
 > - Communication avec le Back 

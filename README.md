@@ -192,11 +192,12 @@ Un retard se remarque sur les équipes **FRONT** et **BACK**, même si les deux 
 ## Avancement du projet : 
 
 ### Ce qui a été fait 
-> #### *Front* 
-> - Communication avec le back
+> #### Front 
+> - Communication avec le back => En attente du back
+> - Il y aura un léger décalage sur cela, le front est pour le moment bloqué sur cette partie à cause du retard du back
 > - Achat de ticket sur la blockchain
 
-```Cependant, ce n'est pas totalement fini, quelques soucis techniques sont apparut. La connexion Tezos n'étant pas encore terminée, il y aura un léger décalage sur cela, le front est pour le moment bloqué sur cette partie.```
+```Cependant, ce n'est pas totalement fini, quelques soucis techniques sont apparut => Quel nft est disponible => demande de création de fonction au back pour obtenir les nft dispo d'un concert. La connexion Tezos est terminé.```
 
 > #### *Back*
 > - Finalisation des derniers détails sur les connexions à la blockchain, le déploiement et la vérification
@@ -228,6 +229,6 @@ Un retard se remarque sur les équipes **FRONT** et **BACK**, même si les deux 
 > 
 > **Front** : Node version 18.10.0
 > 
-> **Back** : Lire le ReadMe du back qui contiens toutes les informations nécéssaires
+> **Back** : Lire le ReadMe du back qui contiens toutes les informations nécessaires
 
 ```Certains éléments du back ont de l'expérience dans le déploiement d'application, par conséquent, ils sont venus en aide à la DSI pour préparer un bon environnement pour déployer, la DSI a ensuite repris le flambeau afin de s'occuper des tâches les plus lourdes et longues. Cependant, un léger retard dans la date de rendu demandé par la DSI (qui souhaitait avoir les projets rendus plus tôt que le 15/04) va impacter la marge de manœuvre de la DSI pour le déploiement.```

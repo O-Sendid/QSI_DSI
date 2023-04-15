@@ -231,7 +231,7 @@ Un retard se remarque sur les équipes **FRONT** et **BACK**, même si les deux 
 > - Refund réalisé
 > - Withdraw réalisé
 
-/!\ Cependant, le coté fonctionnel laisse à désirer puisque tout est créé à la main, mais cela veut aussi dire qu'une fois que le back aura corrigé les problèmes remontés, le temps nécessaire pour connecter le front et le back sera assez court. 
+/!\ Cependant, le côté fonctionnel laisse à désirer puisque tout est créé à la main, mais ils ont su s'adapter et grâce à cela, une fois que le back aura corrigé les problèmes remontés, le temps nécessaire pour connecter le front et le back sera assez court. 
 
 > #### *Back*
 > - Le projet est fini en grande partie, cependant, il manque certaine fonction dont le front a besoin qui sont encore à finir (cf front semaine 11/04).

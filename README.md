@@ -253,3 +253,7 @@ Ce retard nous a toutefois contraint nous, la DSI, a déployé le jour-même de 
 La DSI aurait peut-être dû réaliser un suivi encore plus poussé que celui proposé et donner la main à tous les membres de chaque équipe, plutôt que simplement au représentant. Nous avions pris cette décision pour le côté simple et efficace de la chose, car communiquer avec 3 groupes de 5 personnes aurait pu s'avérer compliqué et brouillon, cependant, il s'avère que dans ce cas, un changement de stratégie aurait peut-être permis une avancée plus rapide et simple. 
 
 Le résultat de ce retard vient aussi des différents risques qui sont survenus. Vous trouverez des informations plus détaillées dans le dossier 'ressources' où nous avons placé différents documents utiles comme un Gantt ou encore un SWOT.
+
+# Liens des repos BACK + FRONT
+>  - https://github.com/AlexisInc/UI-Justicket
+>  - https://github.com/Marckquo/concert_api

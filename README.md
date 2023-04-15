@@ -232,6 +232,7 @@ Un retard se remarque sur les équipes **FRONT** et **BACK**, même si les deux 
 
 > #### *Back*
 > - Le projet est fini en grande partie, cependant, il manque certaines fonctions dont le front a besoin qui sont encore à finir (cf front semaine 11/04).
+> - Correction du problème concernant les adresses des concerts
 
 # Mise en production : 
 > **Domaine** : justicket.maxleq.com 

@@ -219,10 +219,28 @@ Un retard se remarque sur les équipes **FRONT** et **BACK**, même si les deux 
 
 ### Ce qui a été fait 
 > #### *Front* 
-> - En attente d'une réponse
+> - Communication avec le back => Remontée de plusieurs problèmes qui nous bloquent :
+>  - Pas de listes de billets d'un utilisateu
+>  - pas d'addresse Tezos d'équipe du Front en admin 
+>  - addresse du concert enfant non pris en compte
+>  - pas de fonction de premint d'un concert 
+>  - pas de fonction pour obtenir les nft dispo (concert).
+
+> Du coup comme tout ça n'était pas fonctionnel 1e 15/04/2023 à 17h, ils ont mocker un concert pour tester et vérifier les nft dispo d'un concert :
+> - Achat de ticket sur la blockchain réalisé
+> - Refund réalisé
+> - Withdraw réalisé
 
 > #### *Back*
-> - Le projet est fini.
+> - Le projet est fini en grande partie, cependant, il manque certaine fonction dont le front a besoin qui sont encore à finir (cf front semaine 11/04).
+
+Conclusion : le projet est bien avancé, cependant, il manque quelques parties connectant le front et le back. Le front a tout de même su être débrouillard en créant un mock d'un concert pour effectuer des vérifications, et le résultat est concluant ! De plus, le back a déjà commencé à corriger les parties bloquants le front, mais au vu du peu de temps restant avant le rendu final, l'équipe du front manquera de temps pour se mettre à jour ! 
+
+Malgré la demande de la DSI d'avoir un rendu "final" assez propre pour le 10/11 avril (afin d'avoir le temps de faire une mise en production et une livraison correcte et sans précipitation) ainsi que la création d'un espace où les chefs d'équipes (back, front et tokenisation) pouvaient communiquer entre eux, il y a eu, beaucoup de lacune de communication qui ont amenés au résultat final. C'est-à-dire, un projet presque fini, puisque les deux derniers groupes (back et front) sont arrivés à des résultats fonctionnels, mais qui ne se connecte pas correctement entre eux.
+
+La DSI aurait peut-être dû réaliser un suivi encore plus poussé que celui proposé et donner la main à toutes les équipes plutôt que simplement au chef. Nous avions pris cette décision pour le côté "simple", puisque communiquer avec 3 groupes de 5 personnes aurait pu s'avérer compliqué, cependant, il s'avère que dans ce cas, un changement de stratégie aurait peut-être permis un avancement plus rapide et simple. 
+
+Le résultat de ce retard du projet vient aussi des différents risques qui sont survenus, vous pourrez voir des informations plus détaillées, dans le dossier ressources où la DSI a placé différents documents utiles. 
 
 # Mise en production : 
 > **Domaine** : justicket.maxleq.com 

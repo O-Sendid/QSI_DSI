@@ -129,31 +129,31 @@ Cependant, le 14/03/2023... Malgré cette **réunion**, les équipes **FRONT** e
 ### Ce qui a été fait 
 > #### *Front* 
 > - Vérification du rôle en cours
-> - Visuel de la page **acheter un billet* finit !
-> - Page **mes billets** finit 
+> - Visuel de la page **acheter un billet* fini !
+> - Page **mes billets** finie
 
 > #### *Back*
 > - Remaniement des tâches à effectuer (qui fait quoi et comment)
 
 > #### *Tokenisation*
-> - Contrat qui permet la création d'un concert qui prend en paramètre : 
->   - Le nombre de place 
+> - Contrat qui permet la création d'un concert qui prend en paramètres : 
+>   - Le nombre de places 
 >   - Le prix des places
-> - Gestion des tickets qui prend en paramètre (ils doivent être renseignés) : 
+> - Gestion des tickets qui prend en paramètres (ils doivent être renseignés) : 
 >   - Le prix d'une place
 >   - La capacité
 >   - Le créateur du concert.
 
-> L'équipe tokenisation a fournit les différentes choses à appeler pour faire fonctionner le code et une explication du fonctionnement ! 
+> L'équipe tokenisation nous a fourni les différents éléments à appeler pour faire fonctionner le code et une explication du fonctionnement ! 
 
 ``` Lien du contrat : https://better-call.dev/ghostnet/KT1BBdjgLByEV3TkLow6DdVvN8xWcKz9uNvo/operations ```
 
 ``` Contrat usine : https://better-call.dev/ghostnet/KT1Um18wP2yeFZ75UBbV3rwCiVemUJe8TSdC/operations ```
 
-***/!\ L'équipe tokenisation a donc "fini" en grande partie ce qui lui est demandé, par conséquent, le front et le back devront se baser sur cela...***
+***/!\ L'équipe tokenisation a donc "fini" en grande partie ce qui lui était demandé. Par conséquent, le front et le back devront se baser sur cela...***
 
 ## Conséquence du risque : 
-Un retard se remarque sur les équipes **FRONT** et **BACK**, même si les deux équipes font de leurs mieux pour rattraper le retard... Suite à une demande de la DSI, les équipes nous ont bien confirmés qu'elles savaient ce qu'elles devaient faire, par conséquent... Nous en avons conclu que le projet ne devrait plus se stopper comme la semaine dernière. 
+Un retard se remarque sur les équipes **FRONT** et **BACK**, même si les deux équipes font de leurs mieux pour rattraper le temps perdu. Suite à une demande de la DSI, les équipes nous ont bien confirmées qu'elles savaient ce qu'elles devaient faire, aussi avons-nous conclu que le projet ne devrait plus se stopper comme la semaine dernière. 
 
 ### Ce qui devrait être fini à la fin de la séance prochaine
 > #### *Front*
@@ -168,14 +168,14 @@ Un retard se remarque sur les équipes **FRONT** et **BACK**, même si les deux 
 
 # SEMAINE DU 28/03
 ## Avancement du projet : 
-> Un décalage de date de rendu a été demandé et accepté par le client, la nouvelle date de rendu est donc au 15/04/2023 !
+> Un décalage de date de rendu a été demandé et accepté par le client. La livraison est maintenant prévue pour le 15/04/2023 !
 
 ### Ce qui a été fait 
 > #### *Front* 
-> - Visuel, en grande partie finis (il ne devrait plus bouger, ou alors légèrement)
+> - Visuel, en grande partie fini (il ne devrait plus bouger, ou alors légèrement)
 
 > #### *Back*
-> - Le travail de la semaine dernière prend plus de temps que prévu, alors décalage sur cette semaine, mais le developpement avance.
+> - Le travail de la semaine dernière prend plus de temps que prévu, alors décalage sur cette semaine, mais le développement avance.
 
 > #### *Tokenisation*
 > - Annulation d'un concert. (donc projet fini)
@@ -183,7 +183,7 @@ Un retard se remarque sur les équipes **FRONT** et **BACK**, même si les deux 
 ### Ce qui devrait être fini à la fin de la séance prochaine
 > #### *Front*
 > - Communication avec le Back 
-> - Achat de ticket sur la blockChain
+> - Achat de tickets sur la blockChain
 
 > #### *Back*
 > - (cf plus haut)
@@ -195,9 +195,9 @@ Un retard se remarque sur les équipes **FRONT** et **BACK**, même si les deux 
 > #### Front 
 > - Communication avec le back => En attente du back
 > - Il y aura un léger décalage sur cela, le front est pour le moment bloqué sur cette partie à cause du retard du back
-> - Achat de ticket sur la blockchain
+> - Achat de tickets sur la blockchain
 
-```Cependant, ce n'est pas totalement fini, quelques soucis techniques sont apparut => Quel nft est disponible => demande de création de fonction au back pour obtenir les nft dispo d'un concert. La connexion Tezos est terminé.```
+```Cependant, ce n'est pas totalement fini, quelques soucis techniques sont apparus => Quel NFT est disponible => demande de création de fonction au back pour obtenir les NFT disponibles d'un concert. La connexion Tezos est terminée.```
 
 > #### *Back*
 > - Finalisation des derniers détails sur les connexions à la blockchain, le déploiement et la vérification
@@ -218,35 +218,35 @@ Un retard se remarque sur les équipes **FRONT** et **BACK**, même si les deux 
 > #### *Front* 
 > - Communication avec le back => Remontée de plusieurs problèmes qui les bloquent :
 >  - Pas de listes de billets d'un utilisateur
->  - pas d'addresse Tezos d'équipe du Front en admin 
->  - addresse du concert enfant non pris en compte
->  - pas de fonction de premint d'un concert 
->  - pas de fonction pour obtenir les nft dispo (concert) -> en cours de correction par le back.
+>  - Pas d'addresse Tezos d'équipe du Front en admin 
+>  - Addresse du concert-enfant non pris en compte
+>  - Pas de fonction de premint d'un concert 
+>  - Pas de fonction pour obtenir les NFT disponibles (concert) -> en cours de correction par le back.
 
-> Du coup comme tout ça n'était pas fonctionnel 1e 15/04/2023 à 17h, ils ont mocker un concert pour tester et vérifier les nft dispo d'un concert :
-> - Achat de ticket sur la blockchain réalisé
+> Ainsi, comme tout ça n'était pas fonctionnel 1e 15/04/2023 à 17 h, ils ont mocké un concert pour tester et vérifier les NFT disponibles d'un concert :
+> - Achat de tickets sur la blockchain réalisé
 > - Refund réalisé
 > - Withdraw réalisé
 
-/!\ Cependant, le côté fonctionnel laisse à désirer puisque tout est créé à la main, mais ils ont su s'adapter et grâce à cela, une fois que le back aura corrigé les problèmes remontés, le temps nécessaire pour connecter le front et le back sera assez court. 
+/!\ Cependant, le côté fonctionnel laisse à désirer puisque tout est créé à la main, mais ils ont su s'adapter et grâce à cela, une fois que le back aura corrigé les problèmes remontés, le connecter au front devrait être assez rapide. 
 
 > #### *Back*
-> - Le projet est fini en grande partie, cependant, il manque certaine fonction dont le front a besoin qui sont encore à finir (cf front semaine 11/04).
+> - Le projet est fini en grande partie, cependant, il manque certaines fonctions dont le front a besoin qui sont encore à finir (cf front semaine 11/04).
 
 # Mise en production : 
 > **Domaine** : justicket.maxleq.com 
 > 
 > **Front** : Node version 18.10.0
 > 
-> **Back** : Lire le ReadMe du back qui contiens toutes les informations nécessaires
+> **Back** : Lire le ReadMe du back qui contient toutes les informations nécessaires
 
-```Certains éléments du back ont de l'expérience dans le déploiement d'application, par conséquent, ils sont venus en aide à la DSI pour préparer un bon environnement pour déployer, la DSI a ensuite repris le flambeau afin de s'occuper des tâches les plus lourdes et longues. Cependant, un léger retard dans la date de rendu demandé par la DSI (qui souhaitait avoir les projets rendus plus tôt que le 15/04) va impacter la marge de manœuvre de la DSI pour le déploiement.```
+```Certains éléments du back ont de l'expérience dans le déploiement d'application, par conséquent, ils sont venus en aide à la DSI pour préparer un bon environnement pour déployer. Nous avons ensuite repris la main afin de s'occuper des tâches les plus lourdes et longues. Cependant, un léger retard dans la date de rendu que nous avions convenue (nous souhaitions avoir les projets de chaque équipe pour le 10/04) va impacter notre marge de manœuvre pour le déploiement.```
 
 # Conclusion : 
-Le projet est bien avancé, cependant, il manque quelques parties connectant le front et le back. Le front a tout de même su être débrouillard en créant un mock d'un concert pour effectuer des vérifications, et le résultat est concluant ! De plus, le back a déjà commencé à corriger les parties bloquants le front, mais au vu du peu de temps restant avant le rendu final, l'équipe du front manquera de temps pour se mettre à jour et réaliser la connexion avec back ! 
+Le projet est bien avancé, cependant, il manque quelques parties connectant le front et le back. Le front a tout de même su se montrer ingénieuse en créant un mock d'un concert pour effectuer des vérifications, et le résultat est concluant ! De plus, le back a déjà commencé à corriger les parties bloquant le front, mais au vu du peu de temps restant avant la deadline, l'équipe du front manquera de temps pour se mettre à jour et réaliser la connexion avec le back ! 
 
-Malgré la demande de la DSI d'avoir un rendu "final" assez propre pour le 10/11 avril (afin d'avoir le temps de faire une mise en production et une livraison correcte et sans précipitation) ainsi que la création d'un espace où les chefs d'équipes (back, front et tokenisation) pouvaient communiquer entre eux, il y a eu des lacunes de communication qui ont amenés au résultat final. C'est-à-dire, un projet presque fini, puisque les deux derniers groupes (back et front) sont arrivés à des résultats fonctionnels, mais qui ne se connecte pas correctement entre eux.
+Malgré la demande de la DSI d'avoir un rendu final suffisamment propre pour le 10 avril (afin d'avoir le temps de faire une mise en production et une livraison correcte et sans précipitation), ainsi que la création d'un espace où les chefs d'équipes (back, front et tokenisation) pouvaient communiquer entre eux, il y a eu des lacunes de communication. Autrement dit, le projet est dans son ensemble presque abouti, puisque les deux derniers groupes (back et front) sont arrivés à des résultats fonctionnels, mais qui ne se connectent pas encore totalement entre eux.
 
-La DSI aurait peut-être dû réaliser un suivi encore plus poussé que celui proposé et donner la main à toutes les équipes plutôt que simplement au chef. Nous avions pris cette décision pour le côté "simple", puisque communiquer avec 3 groupes de 5 personnes aurait pu s'avérer compliqué, cependant, il s'avère que dans ce cas, un changement de stratégie aurait peut-être permis un avancement plus rapide et simple. 
+La DSI aurait peut-être dû réaliser un suivi encore plus poussé que celui proposé et donner la main à tous les membres de chaque équipe, plutôt que simplement au représentant. Nous avions pris cette décision pour le côté simple et efficace de la chose, car communiquer avec 3 groupes de 5 personnes aurait pu s'avérer compliqué et brouillon, cependant, il s'avère que dans ce cas, un changement de stratégie aurait peut-être permis une avancée plus rapide et simple. 
 
-Le résultat de ce retard du projet vient aussi des différents risques qui sont survenus, vous pourrez voir des informations plus détaillées, dans le dossier ressources où la DSI a placé différents documents utiles. 
+Le résultat de ce retard vient aussi des différents risques qui sont survenus. Vous trouverez des informations plus détaillées dans le dossier 'ressources' où nous avons placé différents documents utiles comme un Gantt ou encore un SWOT.

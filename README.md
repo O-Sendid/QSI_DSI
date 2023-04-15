@@ -185,9 +185,6 @@ Un retard se remarque sur les équipes **FRONT** et **BACK**, même si les deux 
 > #### *Back*
 > - (cf plus haut)
 
-> #### *Tokenisation*
-> - Annulation d'un concert.
-
 # SEMAINE DU 04/04
 ## Avancement du projet : 
 
@@ -211,20 +208,17 @@ Un retard se remarque sur les équipes **FRONT** et **BACK**, même si les deux 
 > - Finaisation de tout ce qui est en cours
 > - Connexion Tezos
 
-> #### *Tokenisation*
-> - Annulation d'un concert.
-
 # SEMAINE DU 11/04 
 ## Avancement du projet (dernière semaine) : 
 
 ### Ce qui a été fait 
 > #### *Front* 
-> - Communication avec le back => Remontée de plusieurs problèmes qui nous bloquent :
+> - Communication avec le back => Remontée de plusieurs problèmes qui les bloquent :
 >  - Pas de listes de billets d'un utilisateur
 >  - pas d'addresse Tezos d'équipe du Front en admin 
 >  - addresse du concert enfant non pris en compte
 >  - pas de fonction de premint d'un concert 
->  - pas de fonction pour obtenir les nft dispo (concert).
+>  - pas de fonction pour obtenir les nft dispo (concert) -> en cours de correction par le back.
 
 > Du coup comme tout ça n'était pas fonctionnel 1e 15/04/2023 à 17h, ils ont mocker un concert pour tester et vérifier les nft dispo d'un concert :
 > - Achat de ticket sur la blockchain réalisé

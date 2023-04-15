@@ -234,14 +234,6 @@ Un retard se remarque sur les équipes **FRONT** et **BACK**, même si les deux 
 > #### *Back*
 > - Le projet est fini en grande partie, cependant, il manque certaine fonction dont le front a besoin qui sont encore à finir (cf front semaine 11/04).
 
-Conclusion : le projet est bien avancé, cependant, il manque quelques parties connectant le front et le back. Le front a tout de même su être débrouillard en créant un mock d'un concert pour effectuer des vérifications, et le résultat est concluant ! De plus, le back a déjà commencé à corriger les parties bloquants le front, mais au vu du peu de temps restant avant le rendu final, l'équipe du front manquera de temps pour se mettre à jour ! 
-
-Malgré la demande de la DSI d'avoir un rendu "final" assez propre pour le 10/11 avril (afin d'avoir le temps de faire une mise en production et une livraison correcte et sans précipitation) ainsi que la création d'un espace où les chefs d'équipes (back, front et tokenisation) pouvaient communiquer entre eux, il y a eu, beaucoup de lacune de communication qui ont amenés au résultat final. C'est-à-dire, un projet presque fini, puisque les deux derniers groupes (back et front) sont arrivés à des résultats fonctionnels, mais qui ne se connecte pas correctement entre eux.
-
-La DSI aurait peut-être dû réaliser un suivi encore plus poussé que celui proposé et donner la main à toutes les équipes plutôt que simplement au chef. Nous avions pris cette décision pour le côté "simple", puisque communiquer avec 3 groupes de 5 personnes aurait pu s'avérer compliqué, cependant, il s'avère que dans ce cas, un changement de stratégie aurait peut-être permis un avancement plus rapide et simple. 
-
-Le résultat de ce retard du projet vient aussi des différents risques qui sont survenus, vous pourrez voir des informations plus détaillées, dans le dossier ressources où la DSI a placé différents documents utiles. 
-
 # Mise en production : 
 > **Domaine** : justicket.maxleq.com 
 > 
@@ -250,3 +242,12 @@ Le résultat de ce retard du projet vient aussi des différents risques qui sont
 > **Back** : Lire le ReadMe du back qui contiens toutes les informations nécessaires
 
 ```Certains éléments du back ont de l'expérience dans le déploiement d'application, par conséquent, ils sont venus en aide à la DSI pour préparer un bon environnement pour déployer, la DSI a ensuite repris le flambeau afin de s'occuper des tâches les plus lourdes et longues. Cependant, un léger retard dans la date de rendu demandé par la DSI (qui souhaitait avoir les projets rendus plus tôt que le 15/04) va impacter la marge de manœuvre de la DSI pour le déploiement.```
+
+# Conclusion : 
+Le projet est bien avancé, cependant, il manque quelques parties connectant le front et le back. Le front a tout de même su être débrouillard en créant un mock d'un concert pour effectuer des vérifications, et le résultat est concluant ! De plus, le back a déjà commencé à corriger les parties bloquants le front, mais au vu du peu de temps restant avant le rendu final, l'équipe du front manquera de temps pour se mettre à jour ! 
+
+Malgré la demande de la DSI d'avoir un rendu "final" assez propre pour le 10/11 avril (afin d'avoir le temps de faire une mise en production et une livraison correcte et sans précipitation) ainsi que la création d'un espace où les chefs d'équipes (back, front et tokenisation) pouvaient communiquer entre eux, il y a eu des lacunes de communication qui ont amenés au résultat final. C'est-à-dire, un projet presque fini, puisque les deux derniers groupes (back et front) sont arrivés à des résultats fonctionnels, mais qui ne se connecte pas correctement entre eux.
+
+La DSI aurait peut-être dû réaliser un suivi encore plus poussé que celui proposé et donner la main à toutes les équipes plutôt que simplement au chef. Nous avions pris cette décision pour le côté "simple", puisque communiquer avec 3 groupes de 5 personnes aurait pu s'avérer compliqué, cependant, il s'avère que dans ce cas, un changement de stratégie aurait peut-être permis un avancement plus rapide et simple. 
+
+Le résultat de ce retard du projet vient aussi des différents risques qui sont survenus, vous pourrez voir des informations plus détaillées, dans le dossier ressources où la DSI a placé différents documents utiles. 

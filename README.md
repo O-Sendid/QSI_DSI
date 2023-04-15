@@ -6,13 +6,13 @@
  
 # Back
 ## Objectifs
-> Création de concert avec comme sous-partie : 
+> Création de concerts avec comme sous-parties : 
 > * Crée un nombre de billets statiques (Mint -> génération du Mint et blockChain enregistre)
 > 
 > * Administrateur :
-> 	* Crée un concert avec un nombre de place / billet 
+> 	* Créer un concert avec un nombre de places/billets 
 > 	* Modification du concert 
-> 		* Planifié (à la création) / Terminé 
+> 		* Planifier (à la création)/Terminer 
 > 		* Ne peut pas retirer l'argent du concert tant que la date de début n'est pas atteinte.
 > 		* Suppression d'un concert (si tout est ok) 
 > 
@@ -23,30 +23,30 @@
 > 	* Nest 
 > 	* TypeOrm
 
-## Risques / Points compliqués 
-> L'équipe du back ne connaît pas toutes les techno utilisés, certaines sont nouvelles pour la plupart d'entre eux, il y a un certain risque de blocage ou alors de ralentissement sur le projet,
+## Risques/Points compliqués 
+> L'équipe du back ne connaît pas toutes les technos utilisés, certaines sont nouvelles pour la plupart d'entre eux. Il y a donc un certain risque de blocage ou alors de ralentissement sur le projet.
 > 
-> On peut avoir un problème de développement, qui pourrait devenir bloquants et stopper net le projet à cause d'un retard de la partie de Tokenisation
+> On peut avoir un problème de développement, qui pourrait devenir bloquant et stopper net le projet à cause d'un retard de la partie de Tokenisation
 >
-> Un point compliqué qui rejoint le premier. La gestion des signatures de message, c'est un développement pas ou peu connu.
+> Un point compliqué qui rejoint le premier : la gestion des signatures de messages, qui est un développement pas ou peu connu.
  
 # Front (UI)
 ## Objectifs
 > * **Voir Front_img**
 > * Choix des technos : 
 > 	* React
-> 	* Typescript
+> 	* TypeScript
 
-## Risques / Points compliqués
-> On va trouver principalement 2 points qui peuvent poser problème, tout d'abord et le plus probable, puisqu'il dépend aussi de la Tokenisation... On peut avoir un fort ralentissement dû à un back non fini ou lent.
+## Risques/Points compliqués
+> On va trouver principalement deux points qui peuvent poser problème, tout d'abord et le plus probable, puisqu'il dépend aussi de la Tokenisation, un fort ralentissement dû à un back non fini ou lent.
 >
-> Les technos ne sont pas complétement maîtriser, même si elles sont connues, il va cependant y avoir un temps d'adaptation puisque ce qui est demandé est un nouveau système.
+> Les technos ne sont pas complétement maîtrisées, même si elles sont connues, il va cependant y avoir un temps d'adaptation puisque ce qui est demandé est un nouveau système.
 
 # Tokenisation
 ## Objectifs
 > * NFT de billets. Gestion des smart contract
 > * Au final, ils ont la charge de la gestion des clés et des billets, sans eux le back ne peut permettre au front d'afficher les billets (qui sont liés à un concert).
-> * Choix Techno :
+> * Choix Technos :
 > * Ligo
 > * crypto
 
@@ -64,12 +64,12 @@
 > - Identification des prochaines taches
 
 > #### *Back*
-> - Réflexion du mcd
+> - Réflexion du MCD
 > - R&D sur ipfs et pinata (contenu, fonctionnement)
 > - Dev
 
 > #### *Tokenisation*
-> - Le NFT de ticket est fait est MINTABLE.
+> - Le NFT de ticket est fait et MINTABLE.
 
 ### Ce qui devrait être fini à la fin de la séance prochaine
 > #### *Front*
@@ -79,11 +79,11 @@
 
 > #### *Back*
 > - Mise en place/utilisation d'ipfs
-> - Finition mcd
+> - Finition MCD
 > - Continuer le dev
 
 > #### *Tokenisation*
-> - Gestion des tickets / concert (aucune distinction actuellement)
+> - Gestion des tickets/concerts (aucune distinction actuellement)
 > - Ajouter les champs supplémentaires souhaités. (metadata)
 
 # SEMAINE DU 14/03
@@ -95,33 +95,33 @@
 > - Page "**mes billets**" (commencée)
 > - Page **création d'un concert** (finie)
 
-```Besoin pour mise la production : Node version 18.10.0```
+```Besoin pour mise en production : Node version 18.10.0```
 
 > #### *Back*
-> - Schema, révision sur les besoins et les objectifs 
+> - Schéma, révision sur les besoins et les objectifs 
 > - Envoi Json/image sur ipfs avec l'aide de pinata
 
 > #### *Tokenisation*
 > - Création d'un concert (déploiement d'un contrat). Via ce dit contrat :
->   - MINT qui permet de générer 1 ticket à la fois (seulement pour le propriétaire)
+>   - MINT qui permet de générer un ticket à la fois (seulement pour le propriétaire)
 
 ### Ce qui devrait être fini à la fin de la séance prochaine
 > #### *Front*
 > - Finir la page **mes billets**
-> - Avancer sur le page **acheter un billet**
+> - Avancer sur la page **acheter un billet**
 > - Vérification du rôle
 
 > #### *Back*
-> - Avancement du dev sur back ( par exemple : finir la vérification des signatures des messages)
+> - Avancement du dev côté back (par exemple : finir la vérification des signatures des messages)
 
 > #### *Tokenisation*
-> - Création de l'endpoint de premint qui permet de créer les NFTs par avance par rapport au nombre de place disponible.
-> - Gestion du propriétaire, au back et front de m'indiquer qui compte réellement appeler la création de contrat.
+> - Création de l'endpoint de premint qui permet de créer les NFTs par avance par rapport au nombre de places disponibles.
+> - Gestion du propriétaire, au back et front de m'indiquer qui compte réellement appeler la création de contrats.
 
 ## Risque survenu : 
-Lorsque le projet a commencé, un membre de la DSI a demandé aux différents groupes de d'abord réfléchir à leurs objectifs... Suite à une bonne demi-heure de réflexion... Une **réunion** entre les différents groupes a eu lieu, chaque équipe à envoyer son chef qui devait par conséquent savoir ce que son équipe souhaitait/pensait devoir faire... À la suite de cette **réunion**, chaque équipe savait ce qu'elle devait faire... Du moins, en théorie, il ne restait plus qu'à choisir les moyens techniques, etc...
+Lorsque le projet a commencé, un membre de la DSI a demandé aux différents groupes de réfléchir en premier lieu à leurs objectifs. Suite à une bonne demi-heure de réflexion, une **réunion** entre les différents groupes a eu lieu. Chaque équipe était représentée par un membre du groupe, qui devait par conséquent savoir ce que son équipe souhaitait/pensait devoir faire. À la suite de cette **réunion**, chaque équipe savait quel chemin prendre, du moins, en théorie, il ne restait plus qu'à choisir les moyens techniques, etc...
 
-Cependant, le 14/03/2023... Malgré la **réunion**, les équipes **FRONT** et **BACK** n'étaient pas correctement accordés sur les tâches qu'elles devaient effectuer... Surtout sur la partie de *qui doit gérer les appels à la tokenisation*. Par conséquent, une nouvelle **réunion** a été demandé (avec la participation de l'équipe de Tokenisation). Cela a évidemment décalé le planning, mais une nouvelle confirmation (de chaque membre de chaque équipe) nous a été donnée.
+Cependant, le 14/03/2023... Malgré cette **réunion**, les équipes **FRONT** et **BACK** n'étaient pas correctement accordées sur les tâches qu'elles devaient effectuer... Surtout sur la partie de *qui doit gérer les appels à la tokenisation*. Par conséquent, une nouvelle **réunion** était requise (avec la participation de l'équipe de Tokenisation). Cela a évidemment décalé le planning, mais une nouvelle confirmation (de chaque membre de chaque équipe) nous a été donnée.
 
 # SEMAINE DU 21/03
 ## Avancement du projet : 
